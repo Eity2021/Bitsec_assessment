@@ -1,6 +1,6 @@
 import { Suspense } from "react";
-import Data from "../pages/admin/data/Data";
-import AdminDashboard from "../pages/admin/dashboard";
+import Data from "../pages/bitsec/users/Data";
+import Dashboard from "../pages/bitsec/dashboard";
 import { LayoutDashboard, BetweenHorizontalEnd, ListEnd } from "lucide-react";
 
 const AllRoutes = [
@@ -10,14 +10,12 @@ const AllRoutes = [
     icon: <LayoutDashboard size={20} />,
     element: (
       <Suspense fallback={<p>Loading...</p>}>
-  
-          <AdminDashboard />
-  
+        <Dashboard />
       </Suspense>
     ),
   },
   {
-    name: "Data",
+    name: "Users Data",
     icon: <BetweenHorizontalEnd size={20} />,
     children: [
       {
@@ -26,9 +24,7 @@ const AllRoutes = [
         icon: <ListEnd size={20} />,
         element: (
           <Suspense fallback={<p>Loading...</p>}>
-          
-              <Data />
-           
+            <Data />
           </Suspense>
         ),
       },

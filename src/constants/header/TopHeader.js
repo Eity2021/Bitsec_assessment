@@ -1,4 +1,4 @@
-import { Bell, Search } from "lucide-react";
+import { Bell } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 export default function TopHeader() {
@@ -30,13 +30,6 @@ export default function TopHeader() {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="relative xl:flex hidden">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4 " />
-              <input
-                placeholder="Search..."
-                className="pl-10 w-64 border border-borderColor py-2 rounded-md bg-[#F8FEF9]  outline-none focus:ring-0 focus:outline-[#252F3F] shadow-md"
-              />
-            </div>
             <button
               size="icon"
               variant="outline"

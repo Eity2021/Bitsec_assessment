@@ -3,7 +3,7 @@ import { Link, Routes, Route } from "react-router";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Header from "../../constants/header/Header";
 import AllRoutes from "../../routes/AllRoutes";
-import DetailsPage from "../../pages/admin/detailsPage/DetailsPage";
+import DetailsPage from "../../pages/bitsec/detailsPage/DetailsPage";
 
 export default function SideNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,9 +34,7 @@ export default function SideNavbar() {
           } md:translate-x-0 transition duration-300 ease-in-out`}
         >
           <div className="flex justify-around mb-10">
-            <h1 className="text-2xl font-semibold text-center ">
-              Dashboard
-            </h1>
+            <h1 className="text-2xl font-semibold text-center ">Dashboard</h1>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden text-white focus:outline-none"

@@ -14,7 +14,7 @@ export default function Cards() {
   const stats = [
     {
       title: "Total Users",
-      value: "12,847",
+      value: "10",
       change: "+12.5%",
       changeIcon: TrendingUp,
       changeColor: "text-green-500",
@@ -27,7 +27,7 @@ export default function Cards() {
     },
     {
       title: "Points Issued",
-      value: "2.4M",
+      value: "24,580",
       change: "+8.2%",
       changeIcon: Zap,
       changeColor: "text-pink-500",
@@ -53,7 +53,7 @@ export default function Cards() {
     },
     {
       title: "Revenue Impact",
-      value: "$45.2K",
+      value: "$12,340",
       change: "+22.1%",
       changeIcon: TrendingUp,
       changeColor: "text-orange-500",
