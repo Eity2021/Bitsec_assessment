@@ -1,6 +1,7 @@
 // import React, { useState } from "react";
 // import { Eye, Pencil, Trash2, ChevronRight, ChevronLeft } from "lucide-react";
 // import Modal from "../../../components/modal/Modal";
+const axios = require("axios");
 
 export default function Data() {
   // const data = [
